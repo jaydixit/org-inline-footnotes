@@ -1,0 +1,43 @@
+    sup a { font-weight: bold; padding: 5px; text-decoration: none; }
+
+    #footnote_box {
+      font-size: 14px;
+      background: white;
+      padding: 0 10px;
+      margin: 10px;
+      border: 1px solid #888;
+      -moz-box-shadow: 0px 0px 5px #888;
+      -webkit-box-shadow: 0px 0px 5px #888;
+      box-shadow: 0px 0px 5px #888;
+    }
+
+
+	#footnote_box .footnum { display:none; }
+#footnote_box {
+    -khtml-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background: rgba(255,240,245,1);
+    border: 1px solid rgba(255,0,0,0.2);
+    border-radius: 8px;
+    color: #3f3f3f;
+    font-family: Monaco, Helvetica, sans-serif;
+    line-height: 1.2;
+    padding-left: 1em;
+    text-align: left;
+    text-shadow: rgba(0,0,0,0.2) 0 2px 5px;
+    box-shadow: none;
+    -moz-box-shadow: 10px 10px 5px #888;
+-webkit-box-shadow: 10px 10px 5px #888;
+box-shadow: 10px 10px 5px #888;
+  transition-duration:400ms;
+    -ms-transition-duration:400ms;
+    -webkit-transition-duration:400ms;
+    -o-transition-duration:400ms;
+    -moz-transition-duration:400ms;
+}
+
+
+#footnotes {
+    display: none;
+}
