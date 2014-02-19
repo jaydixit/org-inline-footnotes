@@ -1,12 +1,9 @@
+#+TITLE: Org Inline Footnotes
+#+AUTHOR: Vesa Vänskä ~ @vesan
+#+HTML_HEAD: <link rel='stylesheet' type='text/css' href='org-inline-footnotes.css'>
+#+HTML_HEAD: <script src="jquery-2.0.3.min.js"></script>
+#+HTML_HEAD: <script src="jquery-inline-footnotes.js"></script>
 #+BEGIN_HTML
-  <script src="http://jaydixit.github.io/sandbox/org-inline-footnotes/jquery-2.0.3.min.js"></script>
-  <script src="http://jaydixit.github.io/sandbox/org-inline-footnotes/jquery-inline-footnotes.js"></script>
-<link rel='stylesheet' type='text/css' href='http://jaydixit.github.io/sandbox/org-inline-footnotes/org-inline-footnotes.css'>
-
-<script src="jquery-2.0.3.min.js"></script>
-  <script src="jquery-inline-footnotes.js"></script>
-<link rel='stylesheet' type='text/css' href='org-inline-footnotes.css'>
-
   <script>
     $(function() {
       var fns=$('.footdef');      
@@ -17,29 +14,31 @@
     });
 </script>
 
-  <style type="text/css">
-    body {
+<style type="text/css">
+  body 
+  {
       color: #555;
       padding: 0;
       margin: 0;
-margin-left:auto;
-margin-right:auto;
+      margin-left:auto;
+      margin-right:auto;
       font-size: 26px;
-}
+  }
 
-
-    #content { width: 660px; margin: 76px auto; 
-color:#555;
-      font-family: "Garamond Premier Pro", Georgia, serif;
-      line-height: 1.6em;
+#content 
+{ 
+    width: 660px; margin: 76px auto; 
+    color:#555;
+    font-family: "Garamond Premier Pro", Georgia, serif;
+    line-height: 1.6em;
 }
 
 h1,h2,h3,h4,h5,h6
-{
-font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; 
- font-weight: 700; 
- text-rendering:optimizeLegibility; 
-}
+		   {
+		       font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; 
+		       font-weight: 700; 
+		       text-rendering:optimizeLegibility; 
+		   }
 </style>
 #+END_HTML 
 

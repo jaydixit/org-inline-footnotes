@@ -41,3 +41,11 @@ box-shadow: 10px 10px 5px #888;
 #footnotes {
     display: none;
 }
+h1.title {
+    font-size: 500%;
+    line-height: 0.8;
+    letter-spacing: -0.06em;
+    text-shadow: 0 0 2px rgba(0,0,0,0.2), 0 0 4px rgba(0,0,0,0.2), 0 0 6px rgba(0,0,0,0.2);
+    -webkit-transition: all 0.2s linear;
+}
+
